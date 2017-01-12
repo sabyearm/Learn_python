@@ -1,0 +1,42 @@
+/*********************************************************/     O3 = ozone
+/**-------------Download "himawari" Data----------------**/     WV = water vapor
+/**             192.168.168.212/himawari                **/
+/*********************************************************/
+
+//***---->> How to Install SYMPY  <<--------***//
+/......Open CMD  >> "pip install sympy"........./
+//*********************************************//
+how to open file netcdf (.nc)
+
+http://www.lfd.uci.edu/~gohlke/pythonlibs/
+
+install Net-CDF4 1.2.7 cp(for python version) win64
+1. install Numpy 1.11.3 mkl(math kernal libery) win64
+install Metphotlib 1.5.3 cp36 win 64
+install pyproj-1.9.5.1 cp 36 win64
+install Basemap 1.0.8 cp36 win 64
+install scipy 0.18.1
+>install<
+cd <to folder file location>
+pip install <file name>
+<donwload souce code for open net-cdf file>
+http://climate.tmd.go.th/gge/index_TH.html
+download CIMP3 and CIMP5
+
+download
+OSGeo4W download 64 bit
+> clikck osgeo4w-setup-x86_64.setup
+> advance install
+> download without install
+> next > direct connection
+> select download osgeo4w
+> Libs change geos : The GEOS from skip to 3.5.0-1
+after install we need to set path for program
+> rigth click computer > properties
+> advance setting system
+> Environment Variables
+> look at system variables > path >edit
+> In variable value: add ;<location of file bin geos>
+
+
+geos 3.5.1
