@@ -1,0 +1,46 @@
+/*********************************************************/     O3 = ozone
+/**-------------Download "himawari" Data----------------**/     WV = water vapor
+/**                                                     **/
+/**             192.168.168.212/himawari                **/
+/**                                                     **/
+/*********************************************************/
+
+//***---->> How to Install SYMPY  <<--------***//
+/**                                           **/
+/......Open CMD  >> "pip install sympy"........./  --> Module for MesoScale
+/**                                           **/
+//*********************************************//
+
+*---------------------------------------------------------*
+|   Open Link                                             | ----> Module for Remote Sensing
+|   http://www.lfd.uci.edu/~gohlke/pythonlibs/            |
+|   &&&                                                   |
+|   Download                                              |
+|   Numpy / netcdf4 / matplotlib / Basemap / scipy        |
+|   &&&                                                   |
+|   Install                                               |
+|   Open CMD  >> "Change Directory to 'Download folder'   |
+|   with "cd ('folder directory')"                        |
+|   and Use "pip install ('file name')"                   |
+*---------------------------------------------------------*
+
+http://climate.tmd.go.th/gge/index_TH.html
+download CIMP3 and CIMP5
+
+download
+OSGeo4W download 64 bit
+> clikck osgeo4w-setup-x86_64.setup
+> advance install
+> download without install
+> next > direct connection
+> select download osgeo4w
+> Libs change geos : The GEOS from skip to 3.5.0-1
+after install we need to set path for program
+> rigth click computer > properties
+> advance setting system
+> Environment Variables
+> look at system variables > path >edit
+> In variable value: add ;<location of file bin geos>
+
+
+geos 3.5.1
